@@ -18,7 +18,7 @@ export default defineConfig({
   ],
   envPrefix: ['VITE_', 'API_HOST', 'IS_GLM', 'IS_BAIDU'],
   build: {
-    outDir: '../server/static',
+    outDir: 'dist',
   },
   server: {
     host: '0.0.0.0',
